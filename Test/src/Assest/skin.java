@@ -7,7 +7,14 @@ import java.io.InputStream;
 
 
 public class skin {
+    
+    // font return
+    public static Font ttf( float fsize, int sel){
 
+
+        
+    }
+    
 
 
 
