@@ -15,7 +15,10 @@ public class skin {
                     path = "SairaSemiCondensed-SemiBold.ttf";
         }
         
-
+        try(InputStream is = skin.class.getResourceAsStream(path)){
+            Font f = Font.createFont(Font.TRUETYPE_FONT, is);
+            return f.deriveFont(fsize);
+        }catch (Exception e){return null;}
         
     }
     
