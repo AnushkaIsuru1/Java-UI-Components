@@ -10,7 +10,11 @@ public class skin {
     
     // font return
     public static Font ttf( float fsize, int sel){
-
+        String path = "SairaSemiCondensed-Medium.ttf";
+        if(sel == 2){
+                    path = "SairaSemiCondensed-SemiBold.ttf";
+        }
+        
 
         
     }
