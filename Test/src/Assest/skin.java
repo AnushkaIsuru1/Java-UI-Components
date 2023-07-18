@@ -41,7 +41,13 @@ public class skin {
     public static Color blc1 = new Color(0,0,0);
     public static Color blc12 = new Color(0,0,0,200);
 
-
+    public static Color blc2 = new Color(13,13,13);
+    public static Color blc3 = new Color(25,25,25);
+    public static Color blc4 = new Color(40,40,40);
+    public static Color blc5 = new Color(64,64,64);
+    public static Color blc6 = new Color(13,13,13, 30);
+  
+    
 
 
     
