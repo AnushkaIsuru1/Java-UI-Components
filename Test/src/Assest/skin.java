@@ -48,6 +48,11 @@ public class skin {
     public static Color blc6 = new Color(13,13,13, 30);
   
     
+   //White Color Range
+    public static Color wc1 = new Color(255,255,255);
+    public static Color wc2 = new Color(216,216,216);
+    public static Color wc3 = new Color(166,166,166);
+    public static Color wc4 = new Color(127,127,127);
 
 
     
