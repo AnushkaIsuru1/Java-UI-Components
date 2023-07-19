@@ -10,4 +10,11 @@ package Assest;
  */
 public class mbg extends javax.swing.JPanel {
 
+    /**
+     * Creates new form mbg
+     */
+    public mbg() {
+        initComponents();
+    }
+
 }
