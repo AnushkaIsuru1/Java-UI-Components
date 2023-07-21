@@ -96,6 +96,8 @@ public class ModernScrollBarUI extends BasicScrollBarUI {
             setBorder(BorderFactory.createEmptyBorder());
         }
 
-
+        @Override
+        public void paint(Graphics grphcs) {
+        }
     }
 }
