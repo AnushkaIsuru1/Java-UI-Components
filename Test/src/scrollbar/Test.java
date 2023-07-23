@@ -95,7 +95,18 @@ public class Test extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-
+        public static void main(String args[]) {
+        UIManager.put("ComboBox.background", new ColorUIResource(skin.bc1));
+        UIManager.put("ComboBox.background", new ColorUIResource(skin.bc2));
+        UIManager.put("ComboBox.selectionBackground", new ColorUIResource(skin.bc3));
+        UIManager.put("ComboBox.selectionForeground", new ColorUIResource(skin.bc4));
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+               new Test().setVisible(true);
+                
+            }
+        });
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JList<String> jList1;
