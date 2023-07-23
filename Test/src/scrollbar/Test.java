@@ -20,7 +20,17 @@ public class Test extends javax.swing.JFrame {
     /**
      * Creates new form Test
      */
-
+    public Test() {
+        initComponents();
+        getContentPane().setBackground(Color.WHITE);
+        //set Vertical scroll bar
+        scroll.setVerticalScrollBar(new ScrollBarCustom());
+        scroll.setBackground(skin.bc10);
+        //set Horizontal scroll bar
+       // ScrollBarCustom sp = new ScrollBarCustom();
+       // sp.setOrientation(JScrollBar.HORIZONTAL);
+       // scroll.setHorizontalScrollBar(sp);
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
