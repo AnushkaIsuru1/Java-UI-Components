@@ -41,6 +41,16 @@ public class Test extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        sp = new scrollbar.ScrollBarCustom();
+        scroll = new javax.swing.JScrollPane();
+        jList1 = new javax.swing.JList<>();
+        scrollBarCustom1 = new scrollbar.ScrollBarCustom();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        sp.setForeground(new java.awt.Color(170, 83, 242));
+
+        scroll.setBorder(null);
 
 
     }// </editor-fold>//GEN-END:initComponents
