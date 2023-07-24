@@ -65,6 +65,12 @@
         </Property>
       </Properties>
     </Component>
+    <Container class="javax.swing.JScrollPane" name="scroll">
+
+
+
+
+    </Container>
 
   </SubComponents>
 </Form>
