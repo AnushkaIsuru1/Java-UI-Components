@@ -9,3 +9,8 @@ import java.awt.event.MouseEvent;
 import javax.swing.JButton;
 import Assest.skin;
 import java.awt.Dimension;
+
+public class Btn_1 extends JButton{
+
+
+}
