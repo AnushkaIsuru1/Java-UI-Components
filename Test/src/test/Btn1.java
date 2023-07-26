@@ -74,6 +74,38 @@ public class Btn1 extends JButton{
         setContentAreaFilled(false);
 
 
+//use the font
+
+        //mouse evet
+     
+        addMouseListener(new MouseAdapter(){
+            @Override
+            public void mousePressed(MouseEvent e){
+                setBackground(active_bg);
+                setForeground(active_fg);
+            }
+            
+            @Override
+            public  void mouseReleased(MouseEvent e){
+                setBackground(bg);
+                setForeground(fg);
+            }
+            
+            @Override
+            public void mouseEntered(MouseEvent e){
+                setBackground(hover_bg);
+                setForeground(hover_fg);
+            }
+            @Override
+            public void mouseExited(MouseEvent e){
+                setBackground(bg);
+                setForeground(fg);
+            }
+        
+        });
+        
+    }
+    
     
 //set the style and size
 //myFont = myFont.deriveFont(style, size);
