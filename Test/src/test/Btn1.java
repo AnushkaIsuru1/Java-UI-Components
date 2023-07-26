@@ -14,3 +14,8 @@ import javax.swing.JButton;
 
 import Assest.skin;
 
+public class Btn1 extends JButton{
+
+    
+    
+}
