@@ -60,6 +60,19 @@ public class Btn1 extends JButton{
         this.active_fg = active_fg;
     }
 
+    public Btn1() {
+
+     Font a = skin.ttf(40, 1);
+     
+    
+       this.setFont(a);
+      // this.setFont(myFont);
+        setFg(Color.WHITE); 
+        setBg(bg);
+        hover_bg = skin.bc1;
+        active_bg = new Color(0, 65, 88);
+        setContentAreaFilled(false);
+
 
     
 //set the style and size
