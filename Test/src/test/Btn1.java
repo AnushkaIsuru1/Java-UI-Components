@@ -122,6 +122,21 @@ public class Btn1 extends JButton{
     private Color active_fg;
     
 
+    @Override
+    protected void paintComponent(Graphics grphcs){
+        Graphics2D g2 = (Graphics2D) grphcs;
+        g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        //paint boarder
+        g2.setColor(new Color(0, 127, 240));
+        g2.fillRoundRect(0, 0, getWidth(), getHeight(), 0, 0);
+        // boader set 1px
+        g2.setColor(getBackground());
+        g2.fillRoundRect(2, 2, getWidth() - 4, getHeight() - 4, 0, 0);
+        
+        g2.setColor(new Color(0, 127, 240));
+        g2.fillRoundRect(getWidth()/ 2 - 30, getHeight() - 6, 60,  4, 0, 0);
+        super.paintComponent(grphcs);
+    }
     
     
     
