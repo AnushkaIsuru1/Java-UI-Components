@@ -16,6 +16,25 @@ import Assest.skin;
 
 public class Btn1 extends JButton{
 
+
+
+    
+//set the style and size
+//myFont = myFont.deriveFont(style, size);
+//Now use the font
+
+    
+    
+    private boolean over;
+    private Color bg;
+    private Color fg;
+    private Color hover_bg;
+    private Color active_bg;
+    private Color hover_fg;
+    private Color active_fg;
+    
+
+    
     
     
 }
