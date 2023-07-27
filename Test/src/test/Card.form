@@ -33,5 +33,11 @@
       </Group>
     </DimensionLayout>
   </Layout>
-
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="tname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+  </SubComponents>
 </Form>
