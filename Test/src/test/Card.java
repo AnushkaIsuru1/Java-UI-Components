@@ -14,5 +14,13 @@ public void setData(ModelCard data){
 }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
 
+        tname = new javax.swing.JLabel();
+
+        tname.setText("jLabel1");
+
+
+
+    }/
 }
