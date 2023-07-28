@@ -36,5 +36,10 @@ public void setData(ModelCard data){
                 .addComponent(tname, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(33, Short.MAX_VALUE))
         );
-    }/
+    }// </editor-fold>//GEN-END:initComponents
+
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel tname;
+    // End of variables declaration//GEN-END:variables
 }
