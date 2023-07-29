@@ -8,7 +8,13 @@ public class cl {
         public static Font openFontTTF( float  fontSize) {
             String fontPath =   "1.ttf";
             
-
+            try (InputStream is = cl.class.getResourceAsStream(fontPath)) {
+                Font font = Font.createFont(Font.TRUETYPE_FONT, is);
+                return font.deriveFont(fontSize);
+            } catch (Exception e) {
+                System.err.println(e);
+                return null;
+            } 
           }
         
 
