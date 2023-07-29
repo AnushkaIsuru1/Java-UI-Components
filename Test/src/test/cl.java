@@ -17,6 +17,8 @@ public class cl {
             } 
           }
         
-
+        
+     public static Color b1= new Color(0, 127, 240);
+     //Load your font from file
 
 }
