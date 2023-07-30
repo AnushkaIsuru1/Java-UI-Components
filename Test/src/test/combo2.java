@@ -29,6 +29,10 @@ public class combo2 extends javax.swing.JPanel{
         setBackground(skin.trdc1);
         
         
-
+        Label l2 = new Label();
+        l2.setVisible(true);
+        l2.setText("ddddddddsssssdssssssssssss");
+        add(l2);
+        add(new JButton("sdfdf"));
     }
 }
