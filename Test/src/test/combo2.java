@@ -17,7 +17,14 @@ public class combo2 extends javax.swing.JPanel{
     
     
     public combo2(){
+        UIManager.put("combo2.background", new ColorUIResource(skin.bc1));
+        UIManager.put("combo2.background", new ColorUIResource(skin.bc2));
+        UIManager.put("combo2.selectionBackground", new ColorUIResource(skin.bc3));
+        UIManager.put("combo2.selectionForeground", new ColorUIResource(skin.bc4));
+        setLayout(new FlowLayout(FlowLayout.LEFT, 2, 2));
+        
 
+        
 
     }
 }
