@@ -12,5 +12,9 @@ import javax.swing.JLabel;
 import javax.swing.UIManager;
 import javax.swing.plaf.ColorUIResource;
 public class combo2 extends javax.swing.JPanel{
+    private String l1[];
+    private String selctedStr = "sssssssssssss";
+    
+    
 
 }
