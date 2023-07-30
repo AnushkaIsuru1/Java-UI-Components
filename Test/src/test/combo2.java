@@ -16,5 +16,8 @@ public class combo2 extends javax.swing.JPanel{
     private String selctedStr = "sssssssssssss";
     
     
+    public combo2(){
 
+
+    }
 }
