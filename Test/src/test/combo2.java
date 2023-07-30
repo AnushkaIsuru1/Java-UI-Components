@@ -23,7 +23,11 @@ public class combo2 extends javax.swing.JPanel{
         UIManager.put("combo2.selectionForeground", new ColorUIResource(skin.bc4));
         setLayout(new FlowLayout(FlowLayout.LEFT, 2, 2));
         
-
+        selctedStr = "sssssssssssss";
+        JLabel cont = new JLabel("dfdf");
+        cont.setText(selctedStr);
+        setBackground(skin.trdc1);
+        
         
 
     }
