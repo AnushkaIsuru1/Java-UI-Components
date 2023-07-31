@@ -94,6 +94,18 @@ public class Combobox<E> extends JComboBox<E> {
                     repaint();
                 }
             });
+            addFocusListener(new FocusAdapter() {
+                @Override
+                public void focusGained(FocusEvent fe) {
+                    showing(false);
+                }
+
+                @Override
+                public void focusLost(FocusEvent fe) {
+                    showing(true);
+                }
+            });
+
 
 
         }
