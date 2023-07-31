@@ -58,7 +58,17 @@ public class Combobox<E> extends JComboBox<E> {
         setBackground(skin.rc1);
         setBorder(new EmptyBorder(15, 3, 5, 3));
         setUI(new ComboUI(this));
-
+        setRenderer(new DefaultListCellRenderer() {
+            @Override
+            public Component getListCellRendererComponent(JList<?> jlist, Object o, int i, boolean bln, boolean bln1) {
+                Component com = super.getListCellRendererComponent(jlist, o, i, bln, bln1);
+                setBorder(new EmptyBorder(5, 5, 5, 5));
+                if (bln) {
+                    com.setBackground(new Color(240, 240, 240));
+                }
+                return com;
+            }
+        });
     }
 
 
