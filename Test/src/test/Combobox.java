@@ -79,6 +79,12 @@ public class Combobox<E> extends JComboBox<E> {
         private boolean show;
         private Combobox combo;
 
+        public ComboUI(Combobox combo) {
+            this.combo = combo;
+
+
+
+        }
 
 
 
