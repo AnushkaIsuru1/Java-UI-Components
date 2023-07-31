@@ -35,3 +35,9 @@ import javax.swing.plaf.basic.ComboPopup;
 
 import scrollbar.ScrollBarCustom;
 
+public class Combobox<E> extends JComboBox<E> {
+
+
+
+
+}
