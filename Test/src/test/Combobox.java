@@ -49,6 +49,9 @@ public class Combobox<E> extends JComboBox<E> {
     public void setLineColor(Color lineColor) {
         this.lineColor = lineColor;
     }
+    private String labeText = "S E L E C T";
+    private Color lineColor = skin.bc2;
+    private boolean mouseOver;
 
 
 
