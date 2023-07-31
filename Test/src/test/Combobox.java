@@ -37,6 +37,18 @@ import scrollbar.ScrollBarCustom;
 
 public class Combobox<E> extends JComboBox<E> {
 
+    public String getLabeText() {
+        return labeText;
+    }
+    public void setLabeText(String labeText) {
+        this.labeText = labeText;
+    }
+    public Color getLineColor() {
+        return lineColor;
+    }
+    public void setLineColor(Color lineColor) {
+        this.lineColor = lineColor;
+    }
 
 
 
