@@ -53,6 +53,13 @@ public class Combobox<E> extends JComboBox<E> {
     private Color lineColor = skin.bc2;
     private boolean mouseOver;
 
+    public Combobox() {
+
+        setBackground(skin.rc1);
+        setBorder(new EmptyBorder(15, 3, 5, 3));
+        setUI(new ComboUI(this));
+
+    }
 
 
 }
