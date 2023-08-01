@@ -134,7 +134,24 @@ public class Combobox<E> extends JComboBox<E> {
                     labeText = "";
                 }
             });
+            /*
+            TimingTarget target = new TimingTargetAdapter() {
+                @Override
+                public void begin() {
+                    animateHinText = getSelectedIndex() == -1;
+                }
 
+                @Override
+                public void timingEvent(float fraction) {
+                    location = fraction;
+                    repaint();
+                }
+
+            };
+            animator = new Animator(300, target);
+            animator.setResolution(0);
+            animator.setAcceleration(0.5f);
+            animator.setDeceleration(0.5f);*/
         }
 
 
