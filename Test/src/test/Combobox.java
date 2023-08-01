@@ -183,6 +183,28 @@ public class Combobox<E> extends JComboBox<E> {
             return pop;
         }
 
+        @Override
+        public void paint(Graphics grphcs, JComponent jc) {
+            super.paint(grphcs, jc);
+            Graphics2D g2 = (Graphics2D) grphcs;
+            g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+            g2.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_LCD_HRGB);
+            int width = getWidth();
+            int height = getHeight();
+            if (mouseOver) {
+                g2.setColor(lineColor);
+            } else {
+                g2.setColor(skin.bc1);
+            }
+            g2.fillRect(2, height - 1, width - 4, 1);
+            createHintText(g2);
+            createLineStyle(g2);
+            g2.dispose();
+        }
+
+
+
+
 
 
     }
