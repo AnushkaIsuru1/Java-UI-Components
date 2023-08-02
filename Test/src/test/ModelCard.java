@@ -8,5 +8,10 @@ public class ModelCard {
         return tNmae;
     }
 
+
+    public void settNmae(String tNmae) {
+        this.tNmae = tNmae;
+    }
+
     
 }
