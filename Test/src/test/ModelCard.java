@@ -16,6 +16,7 @@ public class ModelCard {
     public ModelCard(String x){
         this.tNmae = x;
     }
-
+    
+    private String tNmae;
     
 }
