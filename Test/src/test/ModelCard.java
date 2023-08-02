@@ -12,6 +12,10 @@ public class ModelCard {
     public void settNmae(String tNmae) {
         this.tNmae = tNmae;
     }
+    
+    public ModelCard(String x){
+        this.tNmae = x;
+    }
 
     
 }
