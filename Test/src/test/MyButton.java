@@ -11,6 +11,21 @@ import javax.swing.JButton;
 
 public class MyButton extends JButton{
 
+    /**
+     * @return the over
+     */
+    public boolean isOver() {
+        return over;
+    }
+
+    /**
+     * @param over the over to set
+     */
+    public void setOver(boolean over) {
+        this.over = over;
+    }
+
+
 
     private boolean over;
     
