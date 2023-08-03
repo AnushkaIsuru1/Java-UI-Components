@@ -54,6 +54,23 @@ public class MyButton extends JButton{
         this.colorOver = colorOver;
     }
 
+    /**
+     * @return the colorclick
+     */
+    public Color getColorclick() {
+        return colorclick;
+    }
+
+    /**
+     * @param colorclick the colorclick to set
+     */
+    public void setColorclick(Color colorclick) {
+        this.colorclick = colorclick;
+    }
+
+
+
+
 
     
 
