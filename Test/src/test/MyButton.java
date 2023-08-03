@@ -40,6 +40,22 @@ public class MyButton extends JButton{
         setBackground(color);
     }
 
+    /**
+     * @return the colorOver
+     */
+    public Color getColorOver() {
+        return colorOver;
+    }
+
+    /**
+     * @param colorOver the colorOver to set
+     */
+    public void setColorOver(Color colorOver) {
+        this.colorOver = colorOver;
+    }
+
+
+    
 
 
     private boolean over;
