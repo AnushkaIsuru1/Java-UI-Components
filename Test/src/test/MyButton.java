@@ -89,7 +89,12 @@ public class MyButton extends JButton{
         return radius;
     }
 
-
+    /**
+     * @param radius the radius to set
+     */
+    public void setRadius(int radius) {
+        this.radius = radius;
+    }
 
     
 
