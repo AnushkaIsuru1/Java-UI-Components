@@ -68,6 +68,19 @@ public class MyButton extends JButton{
         this.colorclick = colorclick;
     }
 
+    /**
+     * @return the boardercoor
+     */
+    public Color getBoardercoor() {
+        return boardercoor;
+    }
+
+    /**
+     * @param boardercoor the boardercoor to set
+     */
+    public void setBoardercoor(Color boardercoor) {
+        this.boardercoor = boardercoor;
+    }
 
 
 
