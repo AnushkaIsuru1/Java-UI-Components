@@ -82,6 +82,12 @@ public class MyButton extends JButton{
         this.boardercoor = boardercoor;
     }
 
+    /**
+     * @return the radius
+     */
+    public int getRadius() {
+        return radius;
+    }
 
 
 
