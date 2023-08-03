@@ -12,7 +12,14 @@ import javax.swing.JButton;
 public class MyButton extends JButton{
 
 
-
+    private boolean over;
+    
+    private Color color;
+    private Color colorOver;
+    private Color colorclick;
+    private Color boardercoor;
+    private int radius = 0;
+    
 
     
 }
