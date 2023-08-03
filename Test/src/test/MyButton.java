@@ -25,6 +25,21 @@ public class MyButton extends JButton{
         this.over = over;
     }
 
+    /**
+     * @return the color
+     */
+    public Color getColor() {
+        return color;
+    }
+
+    /**
+     * @param color the color to set
+     */
+    public void setColor(Color color) {
+        this.color = color;
+        setBackground(color);
+    }
+
 
 
     private boolean over;
