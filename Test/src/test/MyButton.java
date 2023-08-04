@@ -104,7 +104,34 @@ public class MyButton extends JButton{
         boardercoor = new Color(30, 138, 56);
        setContentAreaFilled(false);
        
+       // add mouse event
+       
+        addMouseListener(new MouseAdapter(){
 
+                @Override
+               public void mouseClicked(MouseEvent e) {}
+
+               @Override
+               public void mousePressed(MouseEvent e) {
+                    setBackground(colorclick);
+               }
+               @Override
+               public void mouseReleased(MouseEvent e) {
+                    setBackground(color);
+                    if(over){
+                         setBackground(colorOver);
+                   }}
+               @Override
+               public void mouseEntered(MouseEvent e) {
+                   setBackground(colorOver);
+                   over = true;
+               }
+                @Override
+               public void mouseExited(MouseEvent e) {
+                   setBackground(color);
+                     over = false;
+               }
+        });
        
        
     }
