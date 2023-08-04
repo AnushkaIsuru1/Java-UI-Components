@@ -144,6 +144,17 @@ public class MyButton extends JButton{
     private Color boardercoor;
     private int radius = 0;
     
-
+    @Override
+    protected void paintComponent(Graphics grphcs){
+        Graphics2D g2 = (Graphics2D) grphcs;
+        g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        //paint boarder
+        g2.setColor(boardercoor);
+        g2.fillRoundRect(0, 0, getWidth(), getHeight(), radius, radius);
+        g2.setColor(getBackground());
+        // boader set 1px
+        g2.fillRoundRect(2, 2, getWidth() - 4, getHeight() - 4, radius, radius);
+        super.paintComponent(grphcs);
+    }
     
 }
