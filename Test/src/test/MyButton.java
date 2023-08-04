@@ -97,7 +97,17 @@ public class MyButton extends JButton{
     }
 
     
+    public MyButton() {
+        setColor(Color.white);
+        colorOver = new Color(179, 250, 160);
+        colorclick = new Color(152, 183, 144);
+        boardercoor = new Color(30, 138, 56);
+       setContentAreaFilled(false);
+       
 
+       
+       
+    }
 
     private boolean over;
     
