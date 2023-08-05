@@ -15,6 +15,15 @@ public class MyComboBox {
     private JComboBox non_EditableComboBox = new JComboBox(listSomeString);
     private JFrame frame;
 
+    public MyComboBox() {
+        listSomeString.add("-");
+        listSomeString.add("Snowboarding");
+        listSomeString.add("Rowing");
+        listSomeString.add("Knitting");
+        listSomeString.add("Speed reading");
+
+
+    }
 
 
 }
