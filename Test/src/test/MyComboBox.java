@@ -9,6 +9,11 @@ import javax.swing.plaf.metal.MetalComboBoxButton;
 
 public class MyComboBox {
 
+    private Vector<String> listSomeString = new Vector<String>();
+    private JComboBox someComboBox = new JComboBox(listSomeString);
+    private JComboBox editableComboBox = new JComboBox(listSomeString);
+    private JComboBox non_EditableComboBox = new JComboBox(listSomeString);
+    private JFrame frame;
 
 
 
