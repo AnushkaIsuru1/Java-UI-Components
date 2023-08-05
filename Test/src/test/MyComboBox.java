@@ -42,7 +42,19 @@ public class MyComboBox {
                 break;
             }
         }
-
+//
+        non_EditableComboBox.setPrototypeDisplayValue("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+        non_EditableComboBox.setFont(new Font("Serif", Font.BOLD, 16));
+//
+        frame = new JFrame();
+        frame.setLayout(new GridLayout(0, 1, 10, 10));
+        frame.add(someComboBox);
+        frame.add(editableComboBox);
+        frame.add(non_EditableComboBox);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLocation(100, 100);
+        frame.pack();
+        frame.setVisible(true);
     }
 
 
