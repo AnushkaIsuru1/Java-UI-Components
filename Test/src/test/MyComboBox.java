@@ -27,7 +27,21 @@ public class MyComboBox {
         someComboBox.setEditable(true);
         someComboBox.getEditor().getEditorComponent().setBackground(Color.YELLOW);
         ((JTextField) someComboBox.getEditor().getEditorComponent()).setBackground(Color.YELLOW);
-
+//
+        editableComboBox.setPrototypeDisplayValue("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+        editableComboBox.setFont(new Font("Serif", Font.BOLD, 16));
+        editableComboBox.setEditable(true);
+        JTextField text = ((JTextField) editableComboBox.getEditor().getEditorComponent());
+        text.setBackground(Color.YELLOW);
+        JComboBox coloredArrowsCombo = editableComboBox;
+        Component[] comp = coloredArrowsCombo.getComponents();
+        for (int i = 0; i < comp.length; i++) {// hack valid only for Metal L&F
+            if (comp[i] instanceof MetalComboBoxButton) {
+                MetalComboBoxButton coloredArrowsButton = (MetalComboBoxButton) comp[i];
+                coloredArrowsButton.setBackground(null);
+                break;
+            }
+        }
 
     }
 
