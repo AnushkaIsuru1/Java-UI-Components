@@ -57,5 +57,17 @@ public class MyComboBox {
         frame.setVisible(true);
     }
 
+    public static void main(String[] args) {
+        UIManager.put("ComboBox.background", new ColorUIResource(Color.yellow));
+        UIManager.put("JTextField.background", new ColorUIResource(Color.yellow));
+        UIManager.put("ComboBox.selectionBackground", new ColorUIResource(Color.magenta));
+        UIManager.put("ComboBox.selectionForeground", new ColorUIResource(Color.blue));
+        SwingUtilities.invokeLater(new Runnable() {
 
+            @Override
+            public void run() {
+                MyComboBox aCTF = new MyComboBox();
+            }
+        });
+    }
 }
