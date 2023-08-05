@@ -21,6 +21,12 @@ public class MyComboBox {
         listSomeString.add("Rowing");
         listSomeString.add("Knitting");
         listSomeString.add("Speed reading");
+//
+        someComboBox.setPrototypeDisplayValue("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+        someComboBox.setFont(new Font("Serif", Font.BOLD, 16));
+        someComboBox.setEditable(true);
+        someComboBox.getEditor().getEditorComponent().setBackground(Color.YELLOW);
+        ((JTextField) someComboBox.getEditor().getEditorComponent()).setBackground(Color.YELLOW);
 
 
     }
