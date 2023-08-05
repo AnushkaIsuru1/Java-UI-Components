@@ -7,3 +7,9 @@ import javax.swing.UIManager;
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.metal.MetalComboBoxButton;
 
+public class MyComboBox {
+
+
+
+
+}
