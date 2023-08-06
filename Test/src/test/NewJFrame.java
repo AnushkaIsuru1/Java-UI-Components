@@ -22,6 +22,19 @@ public class NewJFrame extends javax.swing.JFrame {
                 }
 
 
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        nW1 = new test.nW();
+        nW2 = new test.nW();
+        combobox2 = new test.Combobox();
+        jButton1 = new javax.swing.JButton();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        combobox1 = new test.Combobox();
+
+
+    }// </editor-fold>//GEN-END:initComponents
 
 
 
