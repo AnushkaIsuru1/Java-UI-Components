@@ -13,7 +13,13 @@ import javax.swing.plaf.ColorUIResource;
 public class NewJFrame extends javax.swing.JFrame {
 
    
-
+    public NewJFrame() {
+        initComponents();
+        getContentPane().setBackground(Color.WHITE );
+        
+        nW1.setData();
+        nW2.setData();
+                }
 
 
 
