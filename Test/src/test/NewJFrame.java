@@ -44,7 +44,27 @@ public class NewJFrame extends javax.swing.JFrame {
         nW2.setName("Hais"); // NOI18N
         getContentPane().add(nW2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 40, -1, -1));
 
+        combobox2.setBackground(new java.awt.Color(153, 153, 0));
+        combobox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Select", "sdf", "sdfsf" }));
+        combobox2.setSelectedIndex(-1);
+        combobox2.setToolTipText("sfsd");
+        combobox2.setOpaque(false);
+        getContentPane().add(combobox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 200, 160, 40));
 
+        jButton1.setText("grgrgege");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 160, 140, -1));
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 100, 140, 40));
+        getContentPane().add(combobox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 180, 120, -1));
+
+        pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
 
