@@ -33,6 +33,17 @@ public class NewJFrame extends javax.swing.JFrame {
         jComboBox1 = new javax.swing.JComboBox<>();
         combobox1 = new test.Combobox();
 
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(0, 14, 28));
+        setPreferredSize(new java.awt.Dimension(600, 400));
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        nW1.setName("Mahesh"); // NOI18N
+        getContentPane().add(nW1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, -1, -1));
+
+        nW2.setName("Hais"); // NOI18N
+        getContentPane().add(nW2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 40, -1, -1));
+
 
     }// </editor-fold>//GEN-END:initComponents
 
