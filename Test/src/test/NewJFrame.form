@@ -41,7 +41,16 @@
         </Constraint>
       </Constraints>
     </Component>
-
+    <Component class="test.nW" name="nW2">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="Hais" noResource="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="290" y="40" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
 
 
 
