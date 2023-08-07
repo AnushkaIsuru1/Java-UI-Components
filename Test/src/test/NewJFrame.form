@@ -51,7 +51,28 @@
         </Constraint>
       </Constraints>
     </Component>
-
+    <Component class="test.Combobox" name="combobox2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Select"/>
+            <StringItem index="1" value="sdf"/>
+            <StringItem index="2" value="sdfsf"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="-1"/>
+        <Property name="toolTipText" type="java.lang.String" value="sfsd"/>
+        <Property name="opaque" type="boolean" value="false"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="290" y="200" width="160" height="40"/>
+        </Constraint>
+      </Constraints>
+    </Component>
 
 
   </SubComponents>
