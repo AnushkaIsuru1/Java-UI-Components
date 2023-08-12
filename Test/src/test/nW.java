@@ -25,6 +25,12 @@ public class nW extends JPanel{
     }
 
 
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+
+    }// </editor-fold>//GEN-END:initComponents
 
     public String labalename;
     // Variables declaration - do not modify//GEN-BEGIN:variables
