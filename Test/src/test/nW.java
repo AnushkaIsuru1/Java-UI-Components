@@ -37,6 +37,12 @@ public class nW extends JPanel{
         setPreferredSize(new java.awt.Dimension(400, 150));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel1.setText("aaaaaaaa");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 105, 25));
+
+        jButton1.setText("jButton1");
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 30, 120, 40));
+
 
     }// </editor-fold>//GEN-END:initComponents
 
