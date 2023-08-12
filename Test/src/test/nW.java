@@ -11,7 +11,18 @@ import javax.swing.JPanel;
 public class nW extends JPanel{
 
 
-
+    public nW() {
+        initComponents();
+      
+    
+        jLabel1.setFont(skin.ttf(16, 1));
+         System.out.println(jLabel1.getParent().getName());
+       
+    }
+    
+    public void setData(){
+        jLabel1.setText(this.getName());
+    }
 
 
 
