@@ -43,7 +43,12 @@ public class nW extends JPanel{
         jButton1.setText("jButton1");
         add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 30, 120, 40));
 
-
+        jTextField1.setColumns(4);
+        jTextField1.setText("jTextField1");
+        jTextField1.setToolTipText("");
+        jTextField1.setBorder(null);
+        jTextField1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 220, 40));
     }// </editor-fold>//GEN-END:initComponents
 
     public String labalename;
