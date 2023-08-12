@@ -33,6 +33,10 @@ public class nW extends JPanel{
         jButton1 = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
 
+        setName("sssssssssssssssssssssssss"); // NOI18N
+        setPreferredSize(new java.awt.Dimension(400, 150));
+        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
 
     }// </editor-fold>//GEN-END:initComponents
 
