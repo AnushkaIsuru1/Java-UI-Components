@@ -12,6 +12,11 @@ public class Pn1 extends javax.swing.JPanel {
 
     /**
      * Creates new form Pn1
+     */
+    public Pn1() {
+        initComponents();
+        setOpaque(false);
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
