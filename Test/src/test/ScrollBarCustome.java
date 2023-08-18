@@ -12,3 +12,9 @@ import javax.swing.JScrollBar;
  *
  * @author Anushka Isuru
  */
+public class ScrollBarCustome extends JScrollBar{
+    
+    
+
+    
+}
