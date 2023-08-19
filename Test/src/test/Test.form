@@ -130,6 +130,10 @@
         </Component>
       </SubComponents>
     </Container>
-
+    <Component class="scrollbar.ScrollBarCustom" name="scrollBarCustom1">
+      <Properties>
+        <Property name="orientation" type="int" value="0"/>
+      </Properties>
+    </Component>
   </SubComponents>
 </Form>
