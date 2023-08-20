@@ -35,6 +35,27 @@ public class Test extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        sp = new scrollbar.ScrollBarCustom();
+        scroll = new javax.swing.JScrollPane();
+        jList1 = new javax.swing.JList<>();
+        scrollBarCustom1 = new scrollbar.ScrollBarCustom();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        sp.setForeground(new java.awt.Color(170, 83, 242));
+
+        scroll.setBorder(null);
+
+        jList1.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 1", "Item 2", "Item 3", "Item 4111111111111111111111111111111", "Item 5", "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        scroll.setViewportView(jList1);
+
+        scrollBarCustom1.setOrientation(javax.swing.JScrollBar.HORIZONTAL);
+
+
 
     }// </editor-fold>//GEN-END:initComponents
 
