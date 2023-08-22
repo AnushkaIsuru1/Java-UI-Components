@@ -50,6 +50,31 @@ public class ModernScrollBarUI extends BasicScrollBarUI{
         return new ScrollBarButton();
     }
     
+    @Override
+    protected void paintTrack(Graphics grphcs, JComponent jc, Rectangle rctng1){
+        Graphics2D g2 = (Graphics2D) grphcs;
+        g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        int orientation = scrollbar.getOrientation();
+        int size, x, y, width, height;
+        
+        if(orientation == JScrollBar.VERTICAL){
+            size = rctng1.width / 2;
+            x = rctng1.x + ((rctng1.width - size) / 2);
+            y = rctng1.y;
+            width = size;
+            height = rctng1.height;
+        }else{
+            size = rctng1.height / 2;
+            y = rctng1.y + ((rctng1.height - size) / 2);
+            x = 0;
+            width = rctng1.width;
+            height = size;
+        }
+        
+        g2.setColor(new Color(240,240,240));
+        g2.fillRect(x, y, width, height);
+        
+    }
 
     
 
