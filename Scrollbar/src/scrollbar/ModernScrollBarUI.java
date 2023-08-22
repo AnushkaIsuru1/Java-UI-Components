@@ -75,7 +75,30 @@ public class ModernScrollBarUI extends BasicScrollBarUI{
         g2.fillRect(x, y, width, height);
         
     }
-
+    
+    @Override
+    protected void paintThumb(Graphics grphcs, JComponent jc, Rectangle rctng1){
+        Graphics2D g2 = (Graphics2D) grphcs;
+        g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        
+        int x,y,width,height;
+        
+        x = rctng1.x;
+        y = rctng1.y;
+        width = rctng1.width;
+        height = rctng1.height;
+        
+        if(scrollbar.getOrientation() == JScrollBar.VERTICAL){
+            y +=8;
+            height -=16;
+            
+        }else{
+            x+=8;
+            width -= 16;
+        }
+        g2.setColor(scrollbar.getForeground());
+        g2.fillRoundRect(x, y, width, height,10, 10);
+    }
     
 
 }
