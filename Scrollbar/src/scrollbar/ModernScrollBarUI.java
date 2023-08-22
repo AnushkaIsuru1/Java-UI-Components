@@ -20,6 +20,15 @@ import javax.swing.plaf.basic.BasicScrollBarUI;
 public class ModernScrollBarUI extends BasicScrollBarUI{
     private final int THUMB_SIZE = 40;
     
+    @Override
+    protected Dimension getMaximumThumbSize(){
+        if(scrollbar.getOrientation() == JScrollBar.VERTICAL){
+            return new Dimension(0, THUMB_SIZE);
+        }else{
+            return new Dimension(THUMB_SIZE, 0);
+        }
+    }
+    
 
 
 
