@@ -100,5 +100,15 @@ public class ModernScrollBarUI extends BasicScrollBarUI{
         g2.fillRoundRect(x, y, width, height,10, 10);
     }
     
-
+    private class ScrollBarButton extends JButton{
+        public ScrollBarButton(){
+            setBorder(BorderFactory.createEmptyBorder());
+            
+        }
+        
+        @Override
+        public void paint(Graphics grphcs){
+            
+        }
+    }
 }
