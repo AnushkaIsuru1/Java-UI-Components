@@ -10,6 +10,7 @@ package scrollbar;
  */
 public class NewJPanel extends javax.swing.JPanel {
 
+    /**
      * Creates new form NewJPanel
      */
     public NewJPanel() {
@@ -23,5 +24,16 @@ public class NewJPanel extends javax.swing.JPanel {
      */
 
 
-
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JCheckBox jCheckBox1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem2;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSpinner jSpinner1;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JToggleButton jToggleButton1;
+    private javax.swing.JTree jTree1;
+    // End of variables declaration//GEN-END:variables
 }
