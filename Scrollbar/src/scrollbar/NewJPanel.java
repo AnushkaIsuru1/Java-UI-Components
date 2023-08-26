@@ -53,7 +53,14 @@ public class NewJPanel extends javax.swing.JPanel {
         add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, -1, -1));
         add(jSpinner1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, -1, -1));
 
-}// </editor-fold>//GEN-END:initComponents
+        jScrollPane1.setViewportView(jTree1);
+
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 60, -1, -1));
+        add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 310, 110, 30));
+
+        jTextField1.setText("jTextField1");
+        add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, 430, 120));
+    }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
