@@ -46,6 +46,12 @@ public class NewJPanel extends javax.swing.JPanel {
         jLabel1.setText("jLabel1");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
 
+        jToggleButton1.setText("jToggleButton1");
+        add(jToggleButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, -1, -1));
+
+        jCheckBox1.setText("jCheckBox1");
+        add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, -1, -1));
+        add(jSpinner1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, -1, -1));
 
 }// </editor-fold>//GEN-END:initComponents
 
