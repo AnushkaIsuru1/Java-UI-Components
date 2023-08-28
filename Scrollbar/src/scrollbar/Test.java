@@ -31,4 +31,9 @@ public class Test extends javax.swing.JFrame {
     }
 
 
+
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private java.awt.MenuBar menuBar1;
+    // End of variables declaration//GEN-END:variables
 }
