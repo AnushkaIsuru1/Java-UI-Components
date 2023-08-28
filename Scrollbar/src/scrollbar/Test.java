@@ -13,6 +13,22 @@ import javax.swing.JScrollBar;
  */
 public class Test extends javax.swing.JFrame {
 
+    /**
+     * Creates new form Test
+     */
+    public Test() {
+        initComponents();
+        getContentPane().setBackground(Color.WHITE );
+        //jScrollPane1.setVerticalScrollBar(new ScrollBarCustome());
+        
+        //set horisantal scrollbat
+        
+        ScrollBarCustome sp  = new ScrollBarCustome();
+        sp.setOrientation(JScrollBar.HORIZONTAL);
+        
+        //jScrollPane1.setHorizontalScrollBar(sp);
+        
+    }
 
 
 }
