@@ -5,7 +5,9 @@
     <Menu class="java.awt.MenuBar" name="menuBar1">
     </Menu>
   </NonVisualComponents>
-
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
 
 
 </Form>
