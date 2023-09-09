@@ -47,6 +47,15 @@ public class Notice extends javax.swing.JFrame {
         textArea1 = new java.awt.TextArea();
         jLabel4 = new javax.swing.JLabel();
 
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("USERS");
+        setBackground(new java.awt.Color(51, 51, 51));
+        setResizable(false);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel2.setBackground(new java.awt.Color(102, 102, 102));
+        jPanel2.setPreferredSize(new java.awt.Dimension(800, 45));
+
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
