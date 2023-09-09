@@ -56,6 +56,18 @@ public class Notice extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(102, 102, 102));
         jPanel2.setPreferredSize(new java.awt.Dimension(800, 45));
 
+        jButton2.setBackground(new java.awt.Color(102, 102, 102));
+        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(200, 200, 200));
+        jButton2.setText("USERS");
+        jButton2.setBorder(null);
+        jButton2.setBorderPainted(false);
+        jButton2.setIconTextGap(0);
+        jButton2.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        jButton2.setPreferredSize(new java.awt.Dimension(180, 45));
+        jButton2.setVerifyInputWhenFocusTarget(false);
+
+
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
