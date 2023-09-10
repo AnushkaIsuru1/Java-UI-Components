@@ -127,6 +127,14 @@ public class Notice extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 812, -1));
+
+        jPanel3.setBackground(new java.awt.Color(51, 51, 51));
+
+        jLabel1.setForeground(new java.awt.Color(175, 175, 187));
+        jLabel1.setText("Notice ID");
+        jLabel1.setFocusable(false);
+
 
 
 
