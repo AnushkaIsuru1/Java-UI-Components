@@ -67,6 +67,20 @@ public class Notice extends javax.swing.JFrame {
         jButton2.setPreferredSize(new java.awt.Dimension(180, 45));
         jButton2.setVerifyInputWhenFocusTarget(false);
 
+        jButton1.setBackground(new java.awt.Color(0, 153, 204));
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("NOTICE");
+        jButton1.setBorder(null);
+        jButton1.setBorderPainted(false);
+        jButton1.setIconTextGap(0);
+        jButton1.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        jButton1.setPreferredSize(new java.awt.Dimension(180, 45));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
 
 
