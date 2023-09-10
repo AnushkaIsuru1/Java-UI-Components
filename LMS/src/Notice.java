@@ -92,6 +92,20 @@ public class Notice extends javax.swing.JFrame {
         jButton3.setMargin(new java.awt.Insets(0, 0, 0, 0));
         jButton3.setPreferredSize(new java.awt.Dimension(180, 45));
 
+        jButton4.setBackground(new java.awt.Color(102, 102, 102));
+        jButton4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(200, 200, 200));
+        jButton4.setText("COURSES");
+        jButton4.setBorder(null);
+        jButton4.setBorderPainted(false);
+        jButton4.setIconTextGap(0);
+        jButton4.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        jButton4.setPreferredSize(new java.awt.Dimension(180, 45));
+
+
+
+
+
 
 
 
