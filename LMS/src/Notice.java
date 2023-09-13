@@ -221,6 +221,16 @@ public class Notice extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+        jScrollPane1.setViewportView(jTable1);
+
+        textArea1.setBackground(new java.awt.Color(65, 65, 65));
+        textArea1.setForeground(new java.awt.Color(255, 255, 255));
+
+        jLabel4.setForeground(new java.awt.Color(175, 175, 187));
+        jLabel4.setText("Notice");
+        jLabel4.setFocusable(false);
+
+
 
 
 
