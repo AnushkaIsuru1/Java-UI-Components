@@ -152,6 +152,11 @@ public class usersFrame extends javax.swing.JFrame {
         jLabel1.setText("User ID");
         jLabel1.setFocusable(false);
 
+        textField1.setBackground(new java.awt.Color(65, 65, 65));
+        textField1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        textField1.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        textField1.setForeground(new java.awt.Color(255, 255, 255));
+        textField1.setText("textField1");
 
 
 
