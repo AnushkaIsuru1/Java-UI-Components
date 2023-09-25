@@ -146,6 +146,13 @@ public class usersFrame extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 812, -1));
 
+        jPanel3.setBackground(new java.awt.Color(51, 51, 51));
+
+        jLabel1.setForeground(new java.awt.Color(175, 175, 187));
+        jLabel1.setText("User ID");
+        jLabel1.setFocusable(false);
+
+
 
 
 
