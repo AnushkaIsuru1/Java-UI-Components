@@ -178,6 +178,12 @@ public class usersFrame extends javax.swing.JFrame {
         textField3.setForeground(new java.awt.Color(255, 255, 255));
         textField3.setText("textField1");
 
+        jLabel4.setForeground(new java.awt.Color(175, 175, 187));
+        jLabel4.setText("Last Name");
+        jLabel4.setFocusable(false);
+
+
+
 
 
 
