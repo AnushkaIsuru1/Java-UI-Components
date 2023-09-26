@@ -182,6 +182,13 @@ public class usersFrame extends javax.swing.JFrame {
         jLabel4.setText("Last Name");
         jLabel4.setFocusable(false);
 
+        textField4.setBackground(new java.awt.Color(65, 65, 65));
+        textField4.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        textField4.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        textField4.setForeground(new java.awt.Color(255, 255, 255));
+        textField4.setText("textField1");
+
+
 
 
 
