@@ -158,6 +158,11 @@ public class usersFrame extends javax.swing.JFrame {
         textField1.setForeground(new java.awt.Color(255, 255, 255));
         textField1.setText("textField1");
 
+        jLabel2.setForeground(new java.awt.Color(175, 175, 187));
+        jLabel2.setText("Email");
+        jLabel2.setFocusable(false);
+
+
 
 
 
