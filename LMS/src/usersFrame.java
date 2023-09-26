@@ -172,7 +172,11 @@ public class usersFrame extends javax.swing.JFrame {
         jLabel3.setText("First Name");
         jLabel3.setFocusable(false);
 
-
+        textField3.setBackground(new java.awt.Color(65, 65, 65));
+        textField3.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        textField3.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        textField3.setForeground(new java.awt.Color(255, 255, 255));
+        textField3.setText("textField1");
 
 
 
