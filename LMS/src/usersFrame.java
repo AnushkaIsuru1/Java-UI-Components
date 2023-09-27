@@ -228,6 +228,11 @@ public class usersFrame extends javax.swing.JFrame {
         jLabel11.setText("Contact Num");
         jLabel11.setFocusable(false);
 
+        jLabel12.setForeground(new java.awt.Color(175, 175, 187));
+        jLabel12.setText("Date of Birth");
+        jLabel12.setFocusable(false);
+
+
     }// </editor-fold>//GEN-END:initComponents
 
 
