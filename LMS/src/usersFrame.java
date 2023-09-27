@@ -220,6 +220,10 @@ public class usersFrame extends javax.swing.JFrame {
         jLabel9.setText("Level");
         jLabel9.setFocusable(false);
 
+        jLabel10.setForeground(new java.awt.Color(175, 175, 187));
+        jLabel10.setText("Department");
+        jLabel10.setFocusable(false);
+
 
     }// </editor-fold>//GEN-END:initComponents
 
