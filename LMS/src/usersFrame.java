@@ -192,6 +192,10 @@ public class usersFrame extends javax.swing.JFrame {
         jLabel5.setText("Password");
         jLabel5.setFocusable(false);
 
+        jLabel6.setForeground(new java.awt.Color(175, 175, 187));
+        jLabel6.setText("Gender");
+        jLabel6.setFocusable(false);
+
 
 
 
