@@ -210,6 +210,11 @@ public class usersFrame extends javax.swing.JFrame {
         textField7.setForeground(new java.awt.Color(255, 255, 255));
         textField7.setText("textField1");
 
+        textField8.setBackground(new java.awt.Color(65, 65, 65));
+        textField8.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        textField8.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        textField8.setForeground(new java.awt.Color(255, 255, 255));
+        textField8.setText("textField1");
 
 
     }// </editor-fold>//GEN-END:initComponents
