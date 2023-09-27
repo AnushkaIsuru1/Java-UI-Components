@@ -240,6 +240,11 @@ public class usersFrame extends javax.swing.JFrame {
         jComboBox2.setForeground(new java.awt.Color(255, 255, 255));
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Male", "Female" }));
 
+        jComboBox3.setBackground(new java.awt.Color(65, 65, 65));
+        jComboBox3.setForeground(new java.awt.Color(255, 255, 255));
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Admin", "Lecturer", "Technical Officer", "Student" }));
+
+
 
     }// </editor-fold>//GEN-END:initComponents
 
