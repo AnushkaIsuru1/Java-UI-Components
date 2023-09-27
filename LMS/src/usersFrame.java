@@ -216,6 +216,10 @@ public class usersFrame extends javax.swing.JFrame {
         textField8.setForeground(new java.awt.Color(255, 255, 255));
         textField8.setText("textField1");
 
+        jLabel9.setForeground(new java.awt.Color(175, 175, 187));
+        jLabel9.setText("Level");
+        jLabel9.setFocusable(false);
+
 
     }// </editor-fold>//GEN-END:initComponents
 
