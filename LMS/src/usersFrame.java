@@ -188,6 +188,9 @@ public class usersFrame extends javax.swing.JFrame {
         textField4.setForeground(new java.awt.Color(255, 255, 255));
         textField4.setText("textField1");
 
+        jLabel5.setForeground(new java.awt.Color(175, 175, 187));
+        jLabel5.setText("Password");
+        jLabel5.setFocusable(false);
 
 
 
