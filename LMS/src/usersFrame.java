@@ -248,6 +248,9 @@ public class usersFrame extends javax.swing.JFrame {
         jComboBox4.setForeground(new java.awt.Color(255, 255, 255));
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4" }));
 
+        jPasswordField1.setBackground(new java.awt.Color(65, 65, 65));
+        jPasswordField1.setForeground(new java.awt.Color(255, 255, 255));
+        jPasswordField1.setText("jPasswordField1");
 
 
 
