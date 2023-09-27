@@ -263,6 +263,22 @@ public class usersFrame extends javax.swing.JFrame {
         jButton5.setPreferredSize(new java.awt.Dimension(180, 30));
         jButton5.setVerifyInputWhenFocusTarget(false);
 
+        jButton6.setBackground(new java.awt.Color(0, 102, 153));
+        jButton6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton6.setForeground(new java.awt.Color(255, 255, 255));
+        jButton6.setText("REGISTER");
+        jButton6.setBorder(null);
+        jButton6.setBorderPainted(false);
+        jButton6.setIconTextGap(0);
+        jButton6.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        jButton6.setPreferredSize(new java.awt.Dimension(180, 30));
+        jButton6.setVerifyInputWhenFocusTarget(false);
+
+
+
+
+
+
 
 
     }// </editor-fold>//GEN-END:initComponents
