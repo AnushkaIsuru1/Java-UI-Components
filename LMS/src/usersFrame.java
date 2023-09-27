@@ -232,6 +232,10 @@ public class usersFrame extends javax.swing.JFrame {
         jLabel12.setText("Date of Birth");
         jLabel12.setFocusable(false);
 
+        jComboBox1.setBackground(new java.awt.Color(65, 65, 65));
+        jComboBox1.setForeground(new java.awt.Color(255, 255, 255));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "BST", "ET", "ICT" }));
+
 
     }// </editor-fold>//GEN-END:initComponents
 
