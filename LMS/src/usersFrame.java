@@ -200,7 +200,9 @@ public class usersFrame extends javax.swing.JFrame {
         jLabel7.setText("Address");
         jLabel7.setFocusable(false);
 
-
+        jLabel8.setForeground(new java.awt.Color(175, 175, 187));
+        jLabel8.setText("User Role");
+        jLabel8.setFocusable(false);
 
 
 
