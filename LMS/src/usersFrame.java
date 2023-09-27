@@ -224,6 +224,9 @@ public class usersFrame extends javax.swing.JFrame {
         jLabel10.setText("Department");
         jLabel10.setFocusable(false);
 
+        jLabel11.setForeground(new java.awt.Color(175, 175, 187));
+        jLabel11.setText("Contact Num");
+        jLabel11.setFocusable(false);
 
     }// </editor-fold>//GEN-END:initComponents
 
