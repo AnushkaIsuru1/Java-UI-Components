@@ -252,6 +252,17 @@ public class usersFrame extends javax.swing.JFrame {
         jPasswordField1.setForeground(new java.awt.Color(255, 255, 255));
         jPasswordField1.setText("jPasswordField1");
 
+        jButton5.setBackground(new java.awt.Color(0, 102, 153));
+        jButton5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(255, 255, 255));
+        jButton5.setText("DELETE");
+        jButton5.setBorder(null);
+        jButton5.setBorderPainted(false);
+        jButton5.setIconTextGap(0);
+        jButton5.setMargin(new java.awt.Insets(0, 0, 0, 0));
+        jButton5.setPreferredSize(new java.awt.Dimension(180, 30));
+        jButton5.setVerifyInputWhenFocusTarget(false);
+
 
 
     }// </editor-fold>//GEN-END:initComponents
