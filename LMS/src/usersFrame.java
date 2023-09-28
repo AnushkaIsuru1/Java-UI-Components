@@ -296,7 +296,11 @@ public class usersFrame extends javax.swing.JFrame {
         jButton8.setPreferredSize(new java.awt.Dimension(180, 30));
         jButton8.setVerifyInputWhenFocusTarget(false);
 
-
+        textField5.setBackground(new java.awt.Color(65, 65, 65));
+        textField5.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+        textField5.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        textField5.setForeground(new java.awt.Color(255, 255, 255));
+        textField5.setText("textField1");
 
 
 
