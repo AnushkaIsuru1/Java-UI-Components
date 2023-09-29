@@ -440,7 +440,9 @@ public class usersFrame extends javax.swing.JFrame {
                 .addContainerGap(26, Short.MAX_VALUE))
         );
 
+        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 790, 520));
 
+        pack();
     }// </editor-fold>//GEN-END:initComponents
 
 
